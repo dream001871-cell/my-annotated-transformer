@@ -19,10 +19,10 @@
 
 1.  **克隆仓库**：
     ```bash
-    git clone https://github.com/your-username/my-annotated-transformer.git
+    git clone https://github.com/dream001871-cell/my-annotated-transformer.git
     cd my-annotated-transformer
     ```
-    (请将 `your-username` 替换为你的 GitHub 用户名)
+
 
 2.  **安装依赖**：
     确保你已经安装了 PyTorch。如果尚未安装，请参考 PyTorch 官方文档进行安装：[https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
@@ -39,6 +39,4 @@
     模型测试通过！
     ```
 
-## 学习心得 (可选)
 
-通过本次实现，我对 Transformer 架构的模块化设计有了更深刻的理解。特别是多头自注意力机制中 Q, K, V 的线性变换、缩放点积注意力计算以及多头拼接的过程，以及位置编码如何为模型引入序列顺序信息，都通过代码实现得到了进一步的巩固。残差连接和层归一化在稳定训练和加速收敛方面的重要性也得到了体现。
